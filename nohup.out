@@ -1,0 +1,1762 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/self-healing-infra/webhook_listener.py", line 1, in <module>
+    from flask import Flask, request
+ModuleNotFoundError: No module named 'flask'
+ * Serving Flask app 'webhook_listener'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.14.71:5001
+[33mPress CTRL+C to quit[0m
+49.204.28.244 - - [23/Apr/2025 01:54:51] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 01:54:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+49.204.28.244 - - [23/Apr/2025 01:55:03] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 01:55:53] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 02:04:02] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 02:04:04] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 02:04:05] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 02:04:05] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 02:04:06] "[31m[1mGET / HTTP/1.1[0m" 405 -
+13.234.31.159 - - [23/Apr/2025 02:18:40] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 02:19:22] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 02:27:37] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 02:27:39] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+127.0.0.1 - - [23/Apr/2025 02:30:25] "POST / HTTP/1.1" 200 -
+49.204.28.244 - - [23/Apr/2025 02:31:50] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 02:31:51] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 02:33:39] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+127.0.0.1 - - [23/Apr/2025 02:37:08] "POST / HTTP/1.1" 200 -
+49.204.28.244 - - [23/Apr/2025 02:44:09] "[31m[1mGET / HTTP/1.1[0m" 405 -
+ * Serving Flask app 'webhook_listener'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.14.71:5001
+[33mPress CTRL+C to quit[0m
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:24:18] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:25:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:26:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+49.204.28.244 - - [23/Apr/2025 19:28:24] "[31m[1mGET / HTTP/1.1[0m" 405 -
+65.2.71.227 - - [23/Apr/2025 19:28:24] "POST / HTTP/1.1" 200 -
+49.204.28.244 - - [23/Apr/2025 19:28:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:29:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:31:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:32:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:34:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:35:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:37:20] "POST / HTTP/1.1" 200 -
+Alert Received: {'alert': 'manual-test'}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: [WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:38:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:40:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:41:51] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 19:43:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:20:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:21:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:23:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:24:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:26:20] "POST / HTTP/1.1" 200 -
+{'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'resolved', 'alerts': [{'status': 'resolved', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T19:25:07.725Z', 'endsAt': '2025-04-23T19:43:07.725Z', 'generatorURL': 'http://c81ce5c82ee1:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://d45f38f3b215:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: [WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:27:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:29:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:30:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:32:20] "POST / HTTP/1.1" 200 -
+49.204.28.244 - - [23/Apr/2025 20:32:52] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:33:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:35:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:36:51] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:38:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:39:50] "POST / HTTP/1.1" 200 -
+{'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: [WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:41:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:42:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:44:30] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:45:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:47:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:48:52] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:50:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:51:20] "POST / HTTP/1.1" 200 -
+{'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': '172.17.0.1:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:51:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': '26f273e4ead83755'}, {'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: [WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:52:51] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:54:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:55:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:56:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:57:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:58:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 20:59:51] "POST / HTTP/1.1" 200 -
+{'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': '172.17.0.1:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:51:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': '26f273e4ead83755'}, {'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': '172.17.0.1:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:51:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': '26f273e4ead83755'}, {'status': 'resolved', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '2025-04-23T20:54:07.725Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': '172.17.0.1:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:51:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': '26f273e4ead83755'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': '172.17.0.1:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': '172.17.0.1:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:51:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': '26f273e4ead83755'}, {'status': 'resolved', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '2025-04-23T20:54:07.725Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': '172.17.0.1:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:51:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': '26f273e4ead83755'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': '172.17.0.1:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': '172.17.0.1:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:51:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': '26f273e4ead83755'}, {'status': 'resolved', 'labels': {'alertname': 'NginxDown', 'instance': 'host.docker.internal:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:20:07.725Z', 'endsAt': '2025-04-23T20:54:07.725Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'd8186832a335ff5d'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': '172.17.0.1:80', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-23T20:51:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://21e9671390d9:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': '26f273e4ead83755'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': '172.17.0.1:80', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://446e2b5d1914:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: [WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 21:00:20] "POST / HTTP/1.1" 200 -
+49.204.28.244 - - [23/Apr/2025 21:16:34] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 21:16:35] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 21:36:33] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [23/Apr/2025 21:53:21] "[31m[1mGET / HTTP/1.1[0m" 405 -
+65.2.71.227 - - [23/Apr/2025 22:10:22] "[33mPOST /alert HTTP/1.1[0m" 404 -
+65.2.71.227 - - [23/Apr/2025 22:10:31] "[33mPOST /alert HTTP/1.1[0m" 404 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.2.71.227 - - [23/Apr/2025 22:13:43] "POST / HTTP/1.1" 200 -
+ * Serving Flask app 'webhook_listener'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://172.31.14.71:5001
+[33mPress CTRL+C to quit[0m
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:12:13] "POST / HTTP/1.1" 200 -
+49.204.28.244 - - [24/Apr/2025 20:17:54] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [24/Apr/2025 20:17:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+49.204.28.244 - - [24/Apr/2025 20:37:00] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [24/Apr/2025 20:37:03] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [24/Apr/2025 20:38:43] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:40:21] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:41:50] "POST / HTTP/1.1" 200 -
+49.204.28.244 - - [24/Apr/2025 20:42:14] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:44:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:45:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:47:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:48:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:50:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:51:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:53:21] "POST / HTTP/1.1" 200 -
+Alert Received: {}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:40:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://27869b7cc19a:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://05247dcbae82:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:40:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://27869b7cc19a:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://05247dcbae82:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: [WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:54:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:56:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:57:51] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 20:59:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:00:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:02:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:03:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:05:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:06:50] "POST / HTTP/1.1" 200 -
+{'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: [WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:08:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:09:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:11:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:12:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:14:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:15:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 21:17:20] "POST / HTTP/1.1" 200 -
+49.204.28.244 - - [24/Apr/2025 21:49:43] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [24/Apr/2025 22:04:35] "[31m[1mGET / HTTP/1.1[0m" 405 -
+49.204.28.244 - - [24/Apr/2025 22:06:36] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:35:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:37:00] "POST / HTTP/1.1" 200 -
+{'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T20:44:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://85b0f9a43175:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://7c3672c7226d:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: [WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:38:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:39:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:41:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:42:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:44:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:45:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:47:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:48:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:50:20] "POST / HTTP/1.1" 200 -
+{'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: [WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Restart NGINX container] *************************************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX] ***********************************************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=2    changed=1    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 22:51:50] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 17, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Restart NGINX container
+  ^ here
+65.1.134.123 - - [24/Apr/2025 22:53:18] "POST / HTTP/1.1" 200 -
+49.204.28.244 - - [24/Apr/2025 22:54:07] "[31m[1mGET / HTTP/1.1[0m" 405 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 17, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Restart NGINX container
+  ^ here
+65.1.134.123 - - [24/Apr/2025 22:57:18] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 17, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Restart NGINX container
+  ^ here
+65.1.134.123 - - [24/Apr/2025 22:58:48] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 17, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Restart NGINX container
+  ^ here
+65.1.134.123 - - [24/Apr/2025 23:00:18] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 17, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Restart NGINX container
+  ^ here
+65.1.134.123 - - [24/Apr/2025 23:01:48] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 17, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Restart NGINX container
+  ^ here
+65.1.134.123 - - [24/Apr/2025 23:03:18] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 17, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Restart NGINX container
+  ^ here
+65.1.134.123 - - [24/Apr/2025 23:04:48] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 17, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Restart NGINX container
+  ^ here
+65.1.134.123 - - [24/Apr/2025 23:06:18] "POST / HTTP/1.1" 200 -
+{'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:35:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://0da6fa46e5fa:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://9016bce28f0c:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:57:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://08836be72055:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://3d127a984b0e:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:57:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://08836be72055:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://3d127a984b0e:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:57:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://08836be72055:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://3d127a984b0e:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:57:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://08836be72055:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://3d127a984b0e:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:57:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://08836be72055:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://3d127a984b0e:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:57:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://08836be72055:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://3d127a984b0e:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: {'receiver': 'webhook-receiver', 'status': 'firing', 'alerts': [{'status': 'firing', 'labels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'annotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'startsAt': '2025-04-24T22:57:07.725Z', 'endsAt': '0001-01-01T00:00:00Z', 'generatorURL': 'http://08836be72055:9090/graph?g0.expr=up%7Bjob%3D%22nginx%22%7D+%3D%3D+0&g0.tab=1', 'fingerprint': 'f32518a023ea06ff'}], 'groupLabels': {}, 'commonLabels': {'alertname': 'NginxDown', 'instance': 'nginx-prometheus-exporter:9113', 'job': 'nginx', 'severity': 'critical'}, 'commonAnnotations': {'description': 'The NGINX web server is not responding.', 'summary': 'NGINX is down'}, 'externalURL': 'http://3d127a984b0e:9093', 'version': '4', 'groupKey': '{}:{}', 'truncatedAlerts': 0}
+Alert Received: [WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 17, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Restart NGINX container
+  ^ here
+65.1.134.123 - - [24/Apr/2025 23:07:48] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! 'shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 17, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Restart NGINX container
+  ^ here
+65.1.134.123 - - [24/Apr/2025 23:09:18] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 26, column 21, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Self-healing: Restart NGINX and Exporter
+                    ^ here
+65.1.134.123 - - [24/Apr/2025 23:10:48] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+ERROR! We were unable to read either as JSON nor YAML, these are the errors we got from each:
+JSON: Expecting value: line 1 column 1 (char 0)
+
+Syntax Error while loading YAML.
+  mapping values are not allowed in this context
+
+The error appears to be in '/home/ubuntu/self-healing-infra/heal-nginx.yml': line 26, column 21, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Self-healing: Restart NGINX and Exporter
+                    ^ here
+65.1.134.123 - - [24/Apr/2025 23:12:18] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Self-healing: Restart NGINX and Exporter] ********************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX container] *************************************************
+changed: [localhost]
+
+TASK [Restart NGINX Prometheus Exporter container] *****************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 23:13:51] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Self-healing: Restart NGINX and Exporter] ********************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX container] *************************************************
+changed: [localhost]
+
+TASK [Restart NGINX Prometheus Exporter container] *****************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 23:14:21] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Self-healing: Restart NGINX and Exporter] ********************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX container] *************************************************
+changed: [localhost]
+
+TASK [Restart NGINX Prometheus Exporter container] *****************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 23:32:20] "POST / HTTP/1.1" 200 -
+[WARNING]: No inventory was parsed, only implicit localhost is available
+[WARNING]: provided hosts list is empty, only localhost is available. Note that
+the implicit localhost does not match 'all'
+
+PLAY [Self-healing: Restart NGINX and Exporter] ********************************
+
+TASK [Gathering Facts] *********************************************************
+ok: [localhost]
+
+TASK [Restart NGINX container] *************************************************
+changed: [localhost]
+
+TASK [Restart NGINX Prometheus Exporter container] *****************************
+changed: [localhost]
+
+PLAY RECAP *********************************************************************
+localhost                  : ok=3    changed=2    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+65.1.134.123 - - [24/Apr/2025 23:33:21] "POST / HTTP/1.1" 200 -

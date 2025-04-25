@@ -1,0 +1,36 @@
+#---
+#- name: Restart NGINX if down
+#  hosts: localhost
+ # tasks:
+  #  - name: Restart nginx container
+   #   shell: docker restart nginx
+
+#- name: Restart NGINX container
+ # hosts: localhost
+  #tasks:
+   # - name: Restart NGINX
+    #  command: docker restart nginx
+
+
+
+
+#- name: Restart NGINX container
+ # shell: docker restart nginx
+  #ignore_errors: yes
+
+#- name: Restart NGINX Prometheus Exporter container
+ # shell: docker restart nginx-prometheus-exporter
+  #ignore_errors: yes
+
+
+- name: "Self-healing: Restart NGINX and Exporter"
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Restart NGINX container
+      shell: docker restart nginx
+      ignore_errors: yes
+
+    - name: Restart NGINX Prometheus Exporter container
+      shell: docker restart nginx-prometheus-exporter
+      ignore_errors: yes

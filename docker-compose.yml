@@ -1,0 +1,55 @@
+
+services:
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    volumes:
+      - ./config/prometheus.yml:/etc/prometheus/prometheus.yml
+      - ./alerts/prometheus_rules.yml:/etc/prometheus/prometheus_rules.yml
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+    ports:
+      - "9090:9090"
+
+  alertmanager:
+    image: prom/alertmanager
+    container_name: alertmanager
+    volumes:
+      - ./config/alertmanager.yml:/etc/alertmanager/alertmanager.yml
+    command:
+      - '--config.file=/etc/alertmanager/alertmanager.yml'
+    ports:
+      - "9093:9093"
+
+  node-exporter:
+    image: prom/node-exporter
+    container_name: node-exporter
+    ports:
+      - "9100:9100"
+
+
+  #nginx:
+   # image: nginx:latest
+   # container_name: nginx
+    #ports:
+     # - "80:80"
+  nginx:
+    image: nginx:latest
+    container_name: nginx
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - "80:80"
+
+
+
+  nginx-prometheus-exporter:
+    image: nginx/nginx-prometheus-exporter
+    container_name: nginx-prometheus-exporter
+    ports:
+      - "9113:9113"  # Exporter port for Prometheus scraping
+    environment:
+      - NGINX_HOST=nginx  # NGINX container's name
+      - NGINX_PORT=80     # NGINX container's port
+    depends_on:
+      - nginx

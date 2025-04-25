@@ -1,0 +1,21 @@
+groups:
+  - name: nginx-alerts
+    rules:
+      - alert: NginxDown
+        expr: up{job="nginx"} == 0
+        for: 30s
+        labels:
+          severity: critical
+        annotations:
+          summary: "NGINX is down"
+          description: "The NGINX web server is not responding."
+
+      - alert: HighCPU
+        expr: rate(node_cpu_seconds_total{mode="user"}[1m]) > 0.9
+        for: 1m
+        labels:
+          severity: warning
+        annotations:
+          summary: "High CPU usage"
+          description: "CPU usage is above 90%."
+
