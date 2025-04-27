@@ -102,7 +102,7 @@ graph TD;
 ### Auto Healing triggered when Nginx is stopped
 ![Screenshot 2025-04-25 050015](https://github.com/user-attachments/assets/db4f0a1d-fe81-4b91-86d6-8997ed4c259e)
 
-### Ater Nginx Stopped ---> Prometheus Targets Page (Showing Nginx is Down)
+### After Nginx Stopped ---> Prometheus Targets Page (Showing Nginx is Down)
 ![Screenshot 2025-04-25 050057](https://github.com/user-attachments/assets/23d6a2a1-bbfb-4fee-88c4-4d509416b6c2)
 
 ![Screenshot 2025-04-25 050127](https://github.com/user-attachments/assets/b12fe18c-9f43-443e-9d62-5c7507d1b731)
